@@ -1,2 +1,4 @@
 .timetracker
 node_modules
+.vscode
+.VSCodeCounter

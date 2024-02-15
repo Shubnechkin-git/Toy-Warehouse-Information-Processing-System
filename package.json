@@ -4,5 +4,23 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mysql": "^2.18.1"
-  }
+  },
+  "scripts": {
+    "start": ".\\page\\toys.html && node server.js"
+  },
+  "name": "information_processing_system",
+  "description": "⚠️ __Error__: document could not be loaded <small>grpc: error while marshaling: string field contains invalid UTF-8</small>.<p>Please report bug at https://github.com/stateful/vscode-runme/issues or let us know on Discord (https://discord.gg/stateful)</p>",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubnechkin-git/Toy-Warehouse-Information-Processing-System.git"
+  },
+  "author": "Shubnechkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubnechkin-git/Toy-Warehouse-Information-Processing-System/issues"
+  },
+  "homepage": "https://github.com/Shubnechkin-git/Toy-Warehouse-Information-Processing-System#readme"
 }

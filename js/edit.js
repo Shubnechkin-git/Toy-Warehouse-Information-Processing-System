@@ -26,6 +26,7 @@ function addEventListenersToCells() {
                             params: {
                                 rowId: rowId,
                                 oldValue: oldValue,
+                                table: document.location.href.match(/\/page\/(.*?)\.html/i)[1],
                                 dataToUpdate: {
                                     columnName: cellName,
                                     newValue: newValue
@@ -40,9 +41,9 @@ function addEventListenersToCells() {
 
                                 const successContainer = document.getElementById('successContainer');
                                 successContainer.innerHTML = `
-                                    <div class="alert alert-success mt-5" role="alert">
-                                    ${response.data.message}
-                                    </div>
+                                <div class="alert alert-success mt-5" role="alert">
+                                ${response.data.message}
+                                </div>
                                 `;
                                 successContainer.style.display = 'block';
                                 // Скрываем сообщение об успешном выполнении через 3 секунды
@@ -57,9 +58,9 @@ function addEventListenersToCells() {
                                 // Обработка ошибок
                                 const errorContainer = document.getElementById('errorContainer');
                                 errorContainer.innerHTML = `
-                                    <div class="alert alert-danger mt-5" role="alert">
-                                        Ошибка: ${error.response ? error.response.data.error : error.message}
-                                    </div>
+                                <div class="alert alert-danger mt-5" role="alert">
+                                Ошибка: ${error.response ? error.response.data.error : error.message}
+                                </div>
                                 `;
                                 errorContainer.style.display = 'block';
 
