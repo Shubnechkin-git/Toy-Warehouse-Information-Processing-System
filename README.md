@@ -4,9 +4,6 @@ runme:
   version: v3
 ---
 
-⚠️ **Error**: document could not be loaded
-grpc: error while marshaling: string field contains invalid UTF-8.Please report bug at https://github.com/stateful/vscode-runme/issues or let us know on Discord (https://discord.gg/stateful)
-
 # Installation
 
 ## 1.Download and install project
@@ -19,9 +16,7 @@ npm i
 
 ## 2.Import BD to PhpMyAdmin
 
-![BD][def]
-
-[def]: ./assets/image.png
+![BD](./assets/image.png)
 
 ## 3.Run project
 
