@@ -1,9 +1,3 @@
----
-runme:
-  id: 01HPQFP24EDJ1HG241X3BYCBB0
-  version: v3
----
-
 # Installation
 
 ## 1.Download and install project
